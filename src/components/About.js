@@ -25,7 +25,7 @@ const About = () => {
           <img
             src={profileImage}
             alt="Navya Sree Arugonda"
-            className="rounded-2xl shadow-lg w-80 h-80 md:w-96 md:h-96 object-cover"
+            className="rounded-2xl shadow-lg w-80 h-80 md:w-94 md:h-94 object-cover"
           />
         </div>
 
