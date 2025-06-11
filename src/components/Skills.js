@@ -53,7 +53,7 @@ const skills = {
 
 const Skills = () => {
   return (
-    <div className="bg-gray-100 py-10 px-6">
+    <div className="bg-white py-10 px-6">
       <h2 className="text-4xl font-extrabold text-purple-700 text-center mb-12">
         Technical Skills
       </h2>

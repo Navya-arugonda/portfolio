@@ -41,7 +41,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className="min-h-screen bg-gray-100 py-10 px-2">
+    <div className="min-h-screen bg-white py-10 px-2">
       <h2 className="text-4xl font-bold text-center text-purple-700 mb-10">
         Projects
       </h2>
@@ -49,7 +49,7 @@ const Projects = () => {
         {projects.map((project, index) => (
           <div
             key={index}
-            className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow m-2"
+            className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300"
           >
             {/* Image Section */}
             {project.image && (

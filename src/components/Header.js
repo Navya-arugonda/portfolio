@@ -6,99 +6,58 @@ const Header = () => {
   const onHomePage = location.pathname === "/";
 
   return (
-    <header className="bg-white shadow-md py-4 px-8 flex justify-between items-center fixed w-full top-0 z-50">
-      <h1 className="text-2xl font-bold text-purple-700">
-        Navya Sree Arugonda
-      </h1>
+    <header className="bg-slate-800 text-white shadow-md py-4 px-8 flex justify-between items-center fixed w-full top-0 z-50">
+      <h1 className="text-2xl font-bold text-white">Navya Sree Arugonda</h1>
       <nav>
         <ul className="flex space-x-6">
           <li>
-            {onHomePage ? (
-              <ScrollLink
-                to="about-section"
-                smooth={true}
-                duration={500}
-                offset={-60}
-                className="text-gray-700 hover:text-purple-500 cursor-pointer"
-              >
-                Home
-              </ScrollLink>
-            ) : (
-              <RouterLink
-                to="/"
-                className="text-gray-700 hover:text-purple-500"
-              >
-                Home
-              </RouterLink>
-            )}
+            <ScrollLink
+              to="about-section"
+              smooth
+              duration={500}
+              offset={-60}
+              className="hover:text-purple-300 cursor-pointer"
+            >
+              Home
+            </ScrollLink>
           </li>
           <li>
-            {onHomePage ? (
-              <ScrollLink
-                to="skills-section"
-                smooth={true}
-                duration={500}
-                offset={-60}
-                className="text-gray-700 hover:text-purple-500 cursor-pointer"
-              >
-                Skills
-              </ScrollLink>
-            ) : (
-              <RouterLink
-                to="/"
-                className="text-gray-700 hover:text-purple-500"
-              >
-                Skills
-              </RouterLink>
-            )}
+            <ScrollLink
+              to="skills-section"
+              smooth
+              duration={500}
+              offset={-60}
+              className="hover:text-purple-300 cursor-pointer"
+            >
+              Skills
+            </ScrollLink>
           </li>
           <li>
-            {onHomePage ? (
-              <ScrollLink
-                to="projects-section"
-                smooth={true}
-                duration={500}
-                offset={-60}
-                className="text-gray-700 hover:text-purple-500 cursor-pointer"
-              >
-                Projects
-              </ScrollLink>
-            ) : (
-              <RouterLink
-                to="/"
-                className="text-gray-700 hover:text-purple-500"
-              >
-                Projects
-              </RouterLink>
-            )}
+            <ScrollLink
+              to="projects-section"
+              smooth
+              duration={500}
+              offset={-60}
+              className="hover:text-purple-300 cursor-pointer"
+            >
+              Projects
+            </ScrollLink>
           </li>
           <li>
-            {onHomePage ? (
-              <ScrollLink
-                to="contact-section"
-                smooth={true}
-                duration={500}
-                offset={-60}
-                className="text-gray-700 hover:text-purple-500 cursor-pointer"
-              >
-                Contact
-              </ScrollLink>
-            ) : (
-              <RouterLink
-                to="/"
-                className="text-gray-700 hover:text-purple-500"
-              >
-                Contact
-              </RouterLink>
-            )}
+            <ScrollLink
+              to="contact-section"
+              smooth
+              duration={500}
+              offset={-60}
+              className="hover:text-purple-300 cursor-pointer"
+            >
+              Contact
+            </ScrollLink>
           </li>
           {/* <li>
-            <RouterLink
-              to="/resume"
-              className="text-gray-700 hover:text-purple-500"
-            >
+            <a href="/resume" className="hover:text-purple-300">
               Resume
-            </RouterLink>
+            </a>
           </li> */}
         </ul>
       </nav>
