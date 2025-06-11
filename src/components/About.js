@@ -37,11 +37,16 @@ const About = () => {
             <span className="text-pink-500"> Full Stack</span> Developer
           </h1>
 
-          <p className="mt-4 text-xl text-gray-600 max-w-2xl">
-            I am a continuous learner with a passion for experimentation and
-            skill mastery, eager to contribute to impactful projects while
-            growing alongside an organization where I can apply my expertise for
-            mutual success.
+          <p className="mt-4 text-xl text-gray-600">
+            I am a continuous learner with over 3 years of experience in
+            software development, focused on building scalable and user-friendly
+            applications. My background includes full-stack development with
+            React, Node.js, Java, and Spring Boot. Experienced in designing
+            RESTful APIs, integrating both SQL and NoSQL databases, and
+            deploying applications on AWS and Azure. Built production-ready
+            applications used by thousands of users. Boosted backend performance
+            by optimizing logic and database queries. Delivered high-quality
+            features in Agile teams while maintaining clean, maintainable code.
           </p>
 
           {/* Buttons */}
