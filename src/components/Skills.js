@@ -29,6 +29,7 @@ const skills = {
     "Docker",
     "Kubernetes",
     "Spring Boot",
+    ".Net",
     "Kafka",
     "Git",
     "Power BI",
